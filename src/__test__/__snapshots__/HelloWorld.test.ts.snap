@@ -1,0 +1,7 @@
+// Vitest Snapshot v1
+
+exports[`HelloWorld > mount component 1`] = `
+"<h1 data-v-e17ea971=\\"\\">hello test</h1>
+<div class=\\"card\\" data-v-e17ea971=\\"\\"><button type=\\"button\\" data-v-e17ea971=\\"\\">count is 0</button></div>
+<p class=\\"read-the-docs\\" data-v-e17ea971=\\"\\">Click on the Vite and Vue logos to learn more</p>"
+`;

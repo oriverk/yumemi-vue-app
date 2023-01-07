@@ -18,10 +18,25 @@
 - JavaScript
   - [Vue.js - The Progressive JavaScript Framework | Vue.js](https://vuejs.org/index.html)
   - [TypeScript: JavaScript With Syntax For Types.](https://www.typescriptlang.org/)
+- test
+  - [Vitest | A blazing fast unit test framework powered by Vite](https://vitest.dev/)
+  - [Home | Vue Test Utils](https://test-utils.vuejs.org/)
 
 ## what i did
 
-```shell
+```sh
 npm create vite@latest yumemi-vue-app -- --template vue-ts
 npm i
 ```
+
+```sh
+npm i -D vitest jsdom @vue/test-utils @vitest/ui @vitest/coverage-c8
+mkdir src/__test__
+# modify vite.config.ts and tsconfig.json
+```
+
+## references
+
+- テスト類
+  - [A guide to Vitest automated testing with Vue components - LogRocket Blog](https://blog.logrocket.com/guide-vitest-automated-testing-vue-components/#creating-vue-component)
+  - [Viteベースの高速テスティングフレームワークVitestを使ってみる | 豆蔵デベロッパーサイト](https://developer.mamezou-tech.com/blogs/2022/12/28/vitest-intro/)
